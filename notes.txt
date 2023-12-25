@@ -11,3 +11,4 @@ Highlight: #ff8906
 Secondary: #f25f4c
 Tertiary: #e53170
 #7f5af0
+#F42B03
