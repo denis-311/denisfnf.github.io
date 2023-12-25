@@ -1,3 +1,19 @@
-body{
-    background-color: #0f0e17;
+body {
+  background-color: #0f0e17;
 }
+
+.h1color {
+  color: #fffffe;
+}
+
+.cardcontainer {
+  justify-content: center;
+  display: flex;
+  height: 50vh;
+}
+
+/* .btnsize {
+  width: 200px;
+  height: 50px;
+  text-align: left;
+} */
