@@ -1,1 +1,13 @@
 learnings page am ende umbenennen
+Colors:
+Background: #0f0e17
+Headline:  #fffffe
+Paragraph: #a7a9be
+Button: #ff8906
+Button Text: #fffffe
+Stroke: black
+Main:#fffffe
+Highlight: #ff8906
+Secondary: #f25f4c
+Tertiary: #e53170
+#7f5af0
