@@ -12,12 +12,15 @@
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="icon" type="image/x-icon" href="/images/house-fill.svg">
+  <script src="/js/backtotop.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/js/mouse.js"></script>
   <title>Denis - iLab Portfolio</title>
 </head>
 
 <body class="">
 
-  <nav class="navbar navbar-white navbar-expand-lg py-3t rounded-bottom-1" <div class="container-fluid">
+  <nav id="top" class="navbar navbar-white navbar-expand-lg py-3t rounded-bottom-1" <div class="container-fluid">
     <a class="navbar-brand fs-4 px-4 text-white fw-bold" href="index.html">Denis' iLab Portfolio</a>
     <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -75,7 +78,7 @@
         <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
           previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
           liking.</p>
-        <a href="aboutme.html" class="fs-5 " role="">Read More</a>
+        <a class="btn btncolor text-white" href="aboutme.html" button">Click to read more</a>
       </div>
     </div>
   </div>
@@ -89,7 +92,7 @@
         <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
           previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
           liking.</p>
-        <a href="about_ilab.html" class="fs-5 " role="">Read More</a>
+        <a class="btn btncolor text-white" href="about_ilab.html" button">Click to read more</a>
       </div>
     </div>
   </div>
@@ -103,7 +106,7 @@
         <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
           previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
           liking.</p>
-        <a href="Readings_personal_reflection.html" class="fs-5 " role="">Read More</a>
+        <a class="btn btncolor text-white" href="learnings_personal_reflection.html" button">Click to read more</a>
       </div>
     </div>
   </div>
@@ -117,7 +120,7 @@
         <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
           previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
           liking.</p>
-        <a href="project.html" class="fs-5 " role="">Read More</a>
+        <a class="btn btncolor text-white" href="project.html" button">Click to read more</a>
       </div>
     </div>
   </div>
@@ -131,7 +134,7 @@
         <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
           previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
           liking.</p>
-        <a href="skills.html" class="fs-5 " role="">Read More</a>
+        <a class="btn btncolor text-white" href="skills.html" button">Click to read more</a>
       </div>
     </div>
   </div>
@@ -145,7 +148,7 @@
         <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
           previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your
           liking.</p>
-        <a href="Readings_personal_reflection.html" class="fs-5" role="">Read More</a>
+        <a class="btn btncolor text-white" href="contact.html" button">Click to read more</a>
       </div>
     </div>
   </div>
@@ -163,10 +166,12 @@
       <i class="bi bi-github fs-4 display-5 text-white"></i>
     </div>
     <ul class="nav col-md-4 justify-content-end">
-      <a class="nav-item"><a href="contact.html" class="nav-link text-white px-4 notransition">Contact</a></a>
+      <a class="nav-item"><a onclick="topFunction()" class="nav-link text-white px-4 notransition">Start from
+          top</a></a>
     </ul>
   </footer>
-  <!-- ------------------- -->
+  <div id="circularcursor"></div>
+  <!---------------------->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

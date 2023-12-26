@@ -22,11 +22,35 @@ footer {
   background-color: #e11d48;
 }
 
-
 .hr2 {
   margin-top: 100px;
   opacity: 0%;
   width: 90%;
   background-color: #0f0e17;
   background-image: #0f0e17;
+}
+
+.btncolor {
+  background-color: #fb923c;
+}
+
+.btncolor:hover {
+  background-color: #fb923c !important;
+  text-decoration: none;
+}
+
+#circularcursor {
+  background-color: rgba(255, 255, 255, 0.364);
+  border: 1.5px solid #ea580c;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+html {
+  cursor: none;
 }
