@@ -14,3 +14,5 @@ https://tailwindcss.com/docs/customizing-colors
 #e11d48
 
 fonts am ende
+project --> mein part im projekt
+voransgehensweise im projekt
