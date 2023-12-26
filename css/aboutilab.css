@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+.iconcolor{
+  color: #e11d48;
+}
+
 hr {
   margin-top: 100px;
   opacity: 100%;
