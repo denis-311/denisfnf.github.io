@@ -22,24 +22,3 @@ footer {
   background-color: #e11d48;
 }
 
-h1 a {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #e5234d;
-  -webkit-mask-image: linear-gradient(
-    -75deg,
-    rgba(255, 255, 255, 0.9) 80%,
-    #ffffff 95%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  -webkit-mask-size: 200%;
-  animation: shine 2s linear infinite;
-}
-
-@keyframes shine {
-  from {
-    -webkit-mask-position: 150%;
-  }
-  to {
-    -webkit-mask-position: -50%;
-  }
-}
