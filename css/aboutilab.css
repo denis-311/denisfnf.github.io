@@ -8,6 +8,14 @@ hr {
   width: 90%;
 }
 
+.hr2 {
+    margin-top: 100px;
+    opacity: 0%;
+    width: 90%;
+    background-color: #0f0e17;
+    background-image: #0f0e17;
+  }
+
 p {
   color: white;
 }
@@ -39,7 +47,7 @@ p {
 }
 
 .timeline-1 .event {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #0f0e17;
   padding-bottom: 25px;
   margin-bottom: 25px;
   position: relative;
