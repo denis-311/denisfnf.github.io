@@ -9,7 +9,7 @@
   }
 
   .navbar{
-    background-color: #dc3d4b;
+    background-color: #e11d48;
   }
 
 li a{
@@ -32,4 +32,11 @@ li a::after{
 li a:hover::after{
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
 }
