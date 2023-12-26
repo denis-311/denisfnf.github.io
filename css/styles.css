@@ -38,31 +38,10 @@ footer {
   background-color: #fb923c !important;
   text-decoration: none;
 }
-
-#circularcursor {
-  background-color: rgba(255, 255, 255, 0.364);
-  border: 2.5px solid #7f5af0;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  position: absolute;
-  z-index: 1;
+#magicPointer {
+  background-color: #4d17ed !important;
 }
-
-html {
-  cursor: none;
-}
-
-@media only screen and(max-width:700px) {
-  #circularcursor {
-    display: "none";
-  }
-}
-
-@media (hover: none) {
-  #circularcursor {
-    pointer-events: none;
-  }
+#magicMouseCursor {
+  border: 2px solid #4d17ed !important;
+  background-color: rgba(255, 255, 255, 0.248);
 }
