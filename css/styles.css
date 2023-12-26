@@ -60,3 +60,9 @@ html {
     display: "none";
   }
 }
+
+@media (hover: none) {
+  #circularcursor {
+    pointer-events: none;
+  }
+}
