@@ -1,5 +1,10 @@
-.mtblog {
-  margin-top: 100px;
+.btncolor {
+  background-color: #fb923c;
+}
+
+.btncolor:hover {
+  background-color: #fb923c !important;
+  text-decoration: none;
 }
 
 hr {
@@ -9,12 +14,12 @@ hr {
 }
 
 .hr2 {
-    margin-top: 100px;
-    opacity: 0%;
-    width: 90%;
-    background-color: #0f0e17;
-    background-image: #0f0e17;
-  }
+  margin-top: 100px;
+  opacity: 0%;
+  width: 90%;
+  background-color: #0f0e17;
+  background-image: #0f0e17;
+}
 
 p {
   color: white;

@@ -22,11 +22,11 @@ footer {
   background-color: #e11d48;
 }
 
-.btncolor{
-  background-color: #fb923c;
-}
 
-.btncolor:hover {
-  background-color: #fb923c !important;
-  text-decoration: none;
-  }
+.hr2 {
+  margin-top: 100px;
+  opacity: 0%;
+  width: 90%;
+  background-color: #0f0e17;
+  background-image: #0f0e17;
+}
