@@ -12,6 +12,13 @@
   background-color: transparent;
 }
 
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    background: #e11d48 !important;
+    color: #fff !important;
+  }
+}
+
 li a {
   position: relative;
 }
