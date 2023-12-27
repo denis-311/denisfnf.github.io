@@ -20,14 +20,21 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="/js/backtotop.js"></script>
-  <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
+  <script type="text/javascript"
+    src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
   <title>About the iLab - Denis - iLab Portfolio</title>
 </head>
 
 <body>
 
+  <div id="nocursor"><!-- some stuff --></div>
+  <script type="text/javascript">
+    document.getElementById('nocursor').style.cursor = 'none';
+  </script>
+
   <nav id="top" class="navbar navbar-white navbar-expand-lg py-3t rounded-bottom-1" <div class="container-fluid">
-    <a class="navbar-brand fs-4 px-4 text-white fw-bold magic-hover magic-hover__square" href="index.html">Denis' iLab Portfolio</a>
+    <a class="navbar-brand fs-4 px-4 text-white fw-bold magic-hover magic-hover__square" href="index.html">Denis' iLab
+      Portfolio</a>
     <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -42,7 +49,8 @@
           <a class="nav-link active text-white magic-hover magic-hover__square" href="about_ilab.html">About iLab</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-white magic-hover magic-hover__square" href="learnings_personal_reflection.html">Personal Refelection &
+          <a class="nav-link active text-white magic-hover magic-hover__square"
+            href="learnings_personal_reflection.html">Personal Refelection &
             Readings</a>
         </li>
         <li class="nav-item">
@@ -70,8 +78,9 @@
           Using a series of utilities, you can create this jumbotron, just like the one in previous versions of
           Bootstrap.
           Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <a class="btn btncolor text-white magic-hover magic-hover__square" href="https://www.fhstp.ac.at/en/onepager/ilab?set_language=en"
-          target="_blank role=" button">Link to the official iLab Website</a>
+        <a class="btn btncolor text-white magic-hover magic-hover__square"
+          href="https://www.fhstp.ac.at/en/onepager/ilab?set_language=en" target="_blank role=" button">Link to the
+          official iLab Website</a>
       </div>
     </div>
     <!-- divider -->
@@ -85,7 +94,8 @@
         <div class="col d-flex align-items-start">
           <i class="bi bi-clock-fill iconcolor m-3 fs-1 mb-1 "></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 magic-hover magic-hover__square">Full-Time Elective Semester (30 ECTS credits)</h3>
+            <h3 class="fw-bold mb-0 fs-4 magic-hover magic-hover__square">Full-Time Elective Semester (30 ECTS credits)
+            </h3>
             <p>You can complete the iLab instead of a regular semester within the framework of your mobility window.</p>
           </div>
         </div>
@@ -254,15 +264,15 @@
   </footer>
   <script type="text/javascript">
     options = {
-	"cursorOuter": "circle-basic",
-	"hoverEffect": "circle-move",
-	"hoverItemMove": false,
-	"defaultCursor": false,
-	"outerWidth": 30,
-	"outerHeight": 30
-      };
+      "cursorOuter": "circle-basic",
+      "hoverEffect": "circle-move",
+      "hoverItemMove": false,
+      "defaultCursor": false,
+      "outerWidth": 30,
+      "outerHeight": 30
+    }
     magicMouse(options);
-</script>
+  </script>
   <script>
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
