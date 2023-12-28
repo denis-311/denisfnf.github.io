@@ -9,10 +9,14 @@ hr {
   background: linear-gradient(to right, #fb923c 35%, #fb7185 100%);
 }
 
-.space{
-    margin-top: 7%;
+.space {
+  margin-top: 7%;
 }
 
-.mbottom{
-  margin-bottom: 12%;
+.mbottom {
+  margin-bottom: 220px;
+}
+
+.textcolor {
+  color: #e11d48;
 }
