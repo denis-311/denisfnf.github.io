@@ -1,0 +1,14 @@
+hr {
+  color: #000 !important;
+  opacity: 100%;
+  border: 1.5px solid;
+  border-radius: 25px;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, #fb923c 35%, #fb7185 100%);
+}
+
+.space{
+    margin-top: 7%;
+}
