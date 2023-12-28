@@ -1,3 +1,17 @@
 .space {
   margin-top: 80px;
 }
+
+hr {
+  color: #000 !important;
+  opacity: 100%;
+  border-top: 2px solid;
+}
+
+.space2 {
+  margin-top: 50px;
+}
+
+.headercolor {
+  color: #e11d48;
+}
