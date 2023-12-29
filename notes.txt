@@ -16,3 +16,10 @@ https://tailwindcss.com/docs/customizing-colors
 fonts am ende
 project --> mein part im projekt
 voransgehensweise im projekt
+
+About Me:
+
+Generell Stuff über mich
+Studium / Studienverlauf + work
+intrested in 
+bucket list
