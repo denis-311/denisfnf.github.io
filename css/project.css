@@ -1,3 +1,19 @@
-.mbottom{
-    margin-bottom: 300px;
+.mbottom {
+  margin-bottom: 100px;
+}
+
+.space {
+  margin-bottom: 100px;
+}
+
+hr {
+  color: #000 !important;
+  opacity: 100%;
+  border: 1.5px solid;
+  border-radius: 25px;
+}
+
+.feature-icon-small {
+  width: 2.5rem;
+  height: 2.5rem;
 }

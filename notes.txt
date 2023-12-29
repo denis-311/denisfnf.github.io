@@ -25,4 +25,3 @@ Project:
 4. worauf wir achten müssen - done 
 5. Zielgruppen - 
 
-vllt bilder inkludiere (mit sample bildern testen)
