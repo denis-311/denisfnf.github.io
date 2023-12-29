@@ -22,7 +22,7 @@ Project:
 1. Beschreibung (fakten bzw. situation hier erklären)  - done
 2. Struktur - done
 3. Features - done
-4. worauf wir achten müssen -
+4. worauf wir achten müssen - done 
 5. Zielgruppen - 
 
 vllt bilder inkludiere (mit sample bildern testen)
