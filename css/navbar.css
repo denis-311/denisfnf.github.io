@@ -17,9 +17,17 @@
     background: #e11d48 !important;
     color: #fff !important;
   }
+
+  li a::after{
+    background-color: blue;
+    width: 0%;
+    height: 0px;
+    bottom: opx;
+  }
 }
 
-li a {
+/* Underline Effect beim Hovern */
+/* li a {
   position: relative;
 }
 
@@ -39,7 +47,7 @@ li a::after {
 li a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 
 .notransition {
   -webkit-transition: none !important;
