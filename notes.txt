@@ -1,6 +1,5 @@
-learnings page am ende umbenennen
+
 Background: #0f0e17
-Paragraph: #a7a9be
 #7f5af0
 #F42B03
 
@@ -14,3 +13,10 @@ Paragraph: #a7a9be
 project --> mein part im projekt
 voransgehensweise im projekt
 
+Content Checklist
+Homepage - DONE
+about ilab -
+aboutme -
+contact -
+learnings - 
+projectskills - 
