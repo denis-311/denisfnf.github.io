@@ -1,11 +1,9 @@
 learnings page am ende umbenennen
 Background: #0f0e17
-Headline:  #fffffe
 Paragraph: #a7a9be
 #7f5af0
 #F42B03
 
-https://tailwindcss.com/docs/customizing-colors
 #fb923c
 #ea580c
 
@@ -13,15 +11,6 @@ https://tailwindcss.com/docs/customizing-colors
 #f43f5e
 #e11d48
 
-fonts am ende
 project --> mein part im projekt
 voransgehensweise im projekt
-
-Project:
-
-1. Beschreibung (fakten bzw. situation hier erklären)  - done
-2. Struktur - done
-3. Features - done
-4. worauf wir achten müssen - done 
-5. Zielgruppen - 
 
