@@ -1,20 +1,6 @@
-
-
 @font-face {
   font-family: Roboto;
   src: url("/fonts/Roboto-Regular.ttf");
-}
-
-.intermedium {
-  font-family: InterMedium;
-}
-
-.internormal {
-  font-family: InterRegular;
-}
-
-.intervar {
-  font-family: InterVariable;
 }
 
 .roboto {
