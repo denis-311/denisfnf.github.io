@@ -114,4 +114,10 @@ p {
   }
 }
 
+.liste {
+  list-style-type: disc;
+}
 
+.liste2{
+  list-style-type: decimal;
+}
